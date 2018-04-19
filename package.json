@@ -18,15 +18,11 @@
       "parcel build --out-dir ./electron/ --public-url ./ ./src/index.js",
     "electron-build":
       "electron-builder --em.main=./electron/electron.js --win -c electron-builder.yml",
-    "electron-build-all":
-      "build --em.main=./electron/electron.js --win --ia32 --mac -c electron-builder.yml",
     "electron-dev":
       "npm run build && electron ./electron/electron.js --enable-logging",
     "start": "concurrently \"npm run compile \" \"npm run electron-dev\" ",
     "start-web":
-      "concurrently \"npm run web-dev \" \"WEBBASED=true npm run electron-dev\" ",
-    "export":
-      "npm run build && build --em.main=public/electron.js --win --ia32 --mac -c electron-builder.yml"
+      "concurrently \"npm run web-dev \" \"WEBBASED=true npm run electron-dev\" "
   },
   "repository": {
     "type": "git",
