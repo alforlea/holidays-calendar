@@ -1,0 +1,16 @@
+export const LOADED_HOLIDAYS = 'INITIAL_STATE';
+export const ADD_HOLIDAY = 'ADD_HOLIDAY';
+export const ADD_MOSCOSO = 'ADD_MOSCOSO';
+export const ADD_OTRO = 'ADD_OTRO';
+export const DELETE_HOLIDAY = 'DELETE_HOLIDAY';
+export const DELETE_PREVIOUS = 'DELETE_PREVIOUS';
+
+export const OFFICIAL_MODE = 'OFFICIAL_MODE';
+export const LOAD_OFFICIAL = 'LOAD_OFFICIAL';
+export const ADD_OFFICIAL = 'ADD_OFFICIAL';
+export const DELETE_OFFICIAL = 'DELETE_OFFICIAL';
+
+export const YEAR_SELECTED = 'YEAR_SELECTED';
+export const NEW_PROFILE = 'NEW_PROFILE';
+export const DELETE_PROFILE = 'DELETE_PROFILE';
+export const GET_PROFILES_YEAR = 'GET_PROFILES_YEAR';

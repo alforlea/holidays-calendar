@@ -1,0 +1,170 @@
+/*Estilos generales*/
+#root {
+  height: 100%;
+  width: 100%;
+  background-image: url('../public/images/background_image.jpeg');
+  padding: 30px 30px;
+}
+
+/*Estilos de InitialPage (Título y botones) */
+.title {
+  color: black;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 10px;
+  text-align: center;
+  text-shadow: 0.04em 0.04em #ffffff, 0.08em 0.08em darkgrey;
+}
+
+.locate {
+  margin-top: 100px;
+}
+
+.link-to-profiles {
+  width: 180;
+  border-color: black;
+}
+
+.link-to-profiles:hover {
+  border-color: black;
+}
+
+/*Estilos de ProfileList*/
+.profile-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 1600;
+  padding-top: 40px;
+  text-shadow: 0.06em 0.06em grey, 0.12em 0.12em black;
+}
+
+.profiles {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.botones-alto {
+  height: 50px;
+  border-color: black;
+}
+
+.botones-alto:hover {
+  border-color: black;
+}
+
+.botones-ancho {
+  width: 250px;
+}
+
+.margen {
+  margin-left: 10px;
+}
+
+/*Estilos de crear perfil*/
+/*Se reusa profiles*/
+
+h4 {
+  margin-bottom: 0px;
+}
+
+.crear_perfil {
+  padding-top: 20px;
+}
+
+.boton-estilo,
+.boton-estilo:hover {
+  border-color: white;
+}
+
+/*Estilos de info de perfil*/
+.info-perfil {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+ul.info-perfil li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 1px solid #999;
+}
+
+/*Estilos de Calendario*/
+.scroll-bar {
+  overflow-y: scroll;
+}
+
+.month-wrapper {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.month-box {
+  width: 399px;
+  height: 240px;
+  padding: 0px 20px 20px 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.month-label {
+  background: white;
+  font-size: 1.3rem;
+  padding: 10px 0px 6px 25px;
+  border: 2px solid black;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.days-label {
+  height: 40px;
+}
+
+.botones-dia {
+  width: 50px;
+  weight: 30px;
+  background-color: white;
+  border: none;
+  border-width: 1px !important;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.botones-dia:hover {
+  background-color: paleturquoise;
+}
+
+.botones-dia.finde {
+  background-color: slategray;
+  color: white;
+  cursor: auto;
+}
+
+.botones-dia.vacacion-oficial {
+  background-color: indianred;
+  color: white;
+  cursor: auto;
+}
+
+.botones-dia.vacacion-pedida {
+  background-color: springgreen;
+  color: black;
+  cursor: auto;
+}
+
+.botones-dia.moscoso {
+  background-color: yellow;
+  color: black;
+  cursor: auto;
+}
+
+.botones-dia.permiso {
+  background-color: pink;
+  color: black;
+  cursor: auto;
+}

@@ -1,0 +1,8 @@
+publish:
+    provider: github
+    token: 
+appId: forjoApp2
+files:
+    - electron/**/*
+    - node_modules/**/*
+productName: Holiday Calendar
